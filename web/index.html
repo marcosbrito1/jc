@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+   <div class="container">
+       <div class="slide">
+        <div class="item" style="background-image: url(./imagens/imagem1.jpg);">
+            <div class="content">
+                <div class="name">Tucano</div>
+                <br>
+            <button class="messageButton" id="id_tucano">Saiba Mais</button>
+            </div>
+            </div>
+           <div class="item" style="background-image: url(./imagens/imagem2.jpg);">
+        <div class="content">
+            <div class="name">Pêqui</div>
+            <br>
+            <button class="messageButton" id="id_pequi">Saiba Mais</button>
+        </div>
+        </div>
+        
+            <div class="item" style="background-image: url(./imagens/imagem3.png);">
+                <div class="content">
+                    <div class="name">Ypê-Amarelo</div>
+                    <br>
+            <button class="messageButton" id="id_ype">Saiba Mais</button>
+                </div>
+                </div>
+                <div class="item" style="background-image: url(./imagens/imagem4.jpg);">
+                    <div class="content">
+                        <div class="name">Onça-Pintada</div>
+                        <br>
+            <button class="messageButton" id="id_onca">Saiba Mais</button>
+                    </div>
+                    </div>
+                    <div class="item" style="background-image: url(./imagens/imagem5.jpg);">
+                        <div class="content">
+                            <div class="name">Lobo-Guará</div>
+                            <br>
+            <button class="messageButton" id="id_lobo">Saiba Mais</button>
+                        </div>
+                        </div>
+       </div>
+
+
+       <div class="button">
+           <button class="prev"><</button>
+           <button class="next">></button>
+       </div>
+
+
+
+       
+       <div id="messagePopup" class="popup"> 
+           <div class="popup-content"> 
+               <span id="closePopup" class="close">&times;</span> 
+               <p id="texto">Esta é a mensagem que aparece no centro da tela.</p> 
+            </div> 
+        </div>
+
+
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
